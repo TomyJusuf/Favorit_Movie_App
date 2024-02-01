@@ -1,3 +1,3 @@
 export default function ActionPopUpCart() {
-  return <div>ActionPopUpCart</div>;
+  return <div>ActionPopUpCard</div>;
 }

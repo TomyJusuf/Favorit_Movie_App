@@ -1,10 +1,17 @@
+import Footer from './components/Footer';
+import MovieResult from './components/MovieResult';
+import Navbar from './components/Navbar';
+import SearchArea from './components/SearchArea';
 import './index.css';
 
 function App() {
   return (
-    <>
-      <h1 className="bg-orange-400">Hallo</h1>
-    </>
+    <body className="bg-slate-100">
+      <Navbar />
+      <SearchArea />
+      <MovieResult />
+      <Footer />
+    </body>
   );
 }
 
