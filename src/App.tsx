@@ -1,3 +1,4 @@
+import ActionPopUpCart from './components/ActionPopUpCard';
 import Footer from './components/Footer';
 import MovieResult from './components/MovieResult';
 import Navbar from './components/Navbar';
@@ -6,11 +7,12 @@ import './index.css';
 
 function App() {
   return (
-    <body className="bg-slate-100">
+    <body className="bg-slate-100 h-[100vh]">
       <Navbar />
       <SearchArea />
       <MovieResult />
       <Footer />
+      {/* <ActionPopUpCart /> */}
     </body>
   );
 }
